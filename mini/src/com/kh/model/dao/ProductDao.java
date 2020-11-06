@@ -8,8 +8,8 @@ public class ProductDao {
 	public ArrayList<Product>openMemberListFile(){
 		ArrayList<Product>list = new ArrayList<>();
 		
-		list.add(new Product("ê¹€ì¹˜ë¼ë©´",1500,5,"image/ê¹€ì¹˜ë¼ë©´.jpeg",false));
-		list.add(new Product("ë§¥ì£¼",2500,5,"image/ë§¥ì£¼.jpeg",true));
+		list.add(new Product("±èÄ¡¶ó¸é",1500,5,"image/±èÄ¡¶ó¸é.jpeg",false));
+		list.add(new Product("¸ÆÁÖ",2500,5,"image/¸ÆÁÖ.jpeg",true));
 		return list;
 		
 	}

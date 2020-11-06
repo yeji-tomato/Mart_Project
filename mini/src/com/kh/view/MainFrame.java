@@ -7,11 +7,12 @@ public class MainFrame extends JFrame{
 		this.setTitle("KHmart");
 		this.setBounds(50,50,1200,800);
 		
-		//í”„ë ˆì„ì´ ê°€ì§„ ì»¨í…Œì´ë„ˆ í˜¸ì¶œí•´ì„œ ì´ë™í•˜ê³ ì í•˜ëŠ” íŒ¨ë„ ì¶”ê°€
-		//frame ë§¤ê°œë³€ìˆ˜ ì „ë‹¬í•˜ë©´ì„œ
-		this.getContentPane().add(new ProductPage(this));
+		//ÇÁ·¹ÀÓÀÌ °¡Áø ÄÁÅ×ÀÌ³Ê È£ÃâÇØ¼­ ÀÌµ¿ÇÏ°íÀÚ ÇÏ´Â ÆĞ³Î Ãß°¡
+		//frame ¸Å°³º¯¼ö Àü´ŞÇÏ¸é¼­
+		this.getContentPane().add(new Login(this));
 		
 		this.setVisible(true);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 }
+

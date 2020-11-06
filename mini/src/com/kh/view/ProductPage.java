@@ -1,5 +1,6 @@
 package com.kh.view;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
@@ -12,47 +13,76 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import com.kh.model.vo.Product;
+import com.kh.model.controller.UserController;
+import com.kh.model.vo.User;
 
 public class ProductPage extends JPanel implements ActionListener{
 	private JFrame mainFrame;
-	
+	private UserController uc = new UserController();
 	public ProductPage(JFrame mf) {
 		mainFrame = mf;
-		
-		
+
 		this.setLayout(null);
-		
 		
 		JLabel productpage = new JLabel("PRODUCT PAGE");
 		productpage.setBounds(575,0,100,30);
 		this.add(productpage);
 		
-		//ì´ë¯¸ì§€ í¬ê¸° ì§€ì •í•˜ì—¬ ì´ë¯¸ì§€ ê°ì²´ ìƒì„±
-		Image logo = new ImageIcon("image/KHmart_logo.jpeg").getImage().getScaledInstance(500, 250, 0);
-		//ë§Œë“¤ì–´ì§„ ì´ë¯¸ì§€ ê°ì²´ë¥¼ JLabelì— ë„£ê¸°
-		JLabel label1 = new JLabel(new ImageIcon(logo));
-		
-		JButton mypage = new JButton("ë§ˆì´í˜ì´ì§€");
-		mypage.setPreferredSize(new Dimension(100, 80));
-		JButton recipe = new JButton("ë ˆì‹œí”¼ë³´ê¸°");
-		recipe.setPreferredSize(new Dimension(100, 80));
-	
 		JPanel top = new JPanel();
-		top.setBounds(350,50,500,500);
+		top.setBounds(100,50,1000,500);
 		
-		top.add(label1);
+		//ÀÌ¹ÌÁö Å©±â ÁöÁ¤ÇÏ¿© ÀÌ¹ÌÁö °´Ã¼ »ı¼º
+		Image logo = new ImageIcon("image/KHmart_logo.jpeg").getImage().getScaledInstance(500, 250, 0);
+		//¸¸µé¾îÁø ÀÌ¹ÌÁö °´Ã¼¸¦ JLabel¿¡ ³Ö±â
+		JLabel logo1 = new JLabel(new ImageIcon(logo));
+		
+		JButton mypage = new JButton("¸¶ÀÌÆäÀÌÁö");
+		mypage.setPreferredSize(new Dimension(100, 80));
+		JButton recipe = new JButton("·¹½ÃÇÇº¸±â");
+		recipe.setPreferredSize(new Dimension(100, 80));
+		JButton cart = new JButton("Àå¹Ù±¸´Ï");
+		cart.setPreferredSize(new Dimension(100, 80));
 	
+		mypage.addActionListener(this);
+	
+		
+		//À¯ÀúÀÌ¸§ ¶ç¿ì±â
+		ArrayList<User>list = uc.getUserList();
+		JLabel userName = new JLabel(list.get(0).getName());
+
+		top.add(userName);
+		top.add(logo1);
 		top.add(mypage);
 		top.add(recipe);
-		this.add(top);
+		top.add(cart);
+		top.setBackground(Color.white);
+		this.setBackground(Color.white);
+		this.add(top,"Center");
 		
 		
 	}
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		
+		JPanel changePanel = null;
+		if(e.getSource() instanceof JButton) {
+			JButton btn = (JButton)e.getSource();
+			switch(btn.getText()) {
+			case "¸¶ÀÌÆäÀÌÁö":
+				changePanel = new myPage(mainFrame);
+				break;
+			case "·¹½ÃÇÇº¸±â":
+				changePanel = new myPage(mainFrame);
+				break;
+			case "Àå¹Ù±¸´Ï":
+				changePanel = new myPage(mainFrame);
+				break;
+			}
+			mainFrame.getContentPane().removeAll();
+			mainFrame.getContentPane().add(changePanel);
+			mainFrame.repaint();
+			mainFrame.setVisible(true);
+		}
 		
 	}
 }
