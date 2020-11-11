@@ -1,29 +1,45 @@
 package com.kh.model.vo;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8851889852802594455L;
 	private String name;
+	private String id;
 	private int age;
 	private String pwd;
-	private int paypwd;
+	private String paypwd;
 	private String address;
 	private int cardNum;
+	private static int point =0;
 	public User() {
 		
 	}
-	public User(String name, int age, String pwd, int paypwd, String address, int cardNum) {
+	public User(String name, int age, String id, String pwd, String paypwd, String address, int cardNum) {
 		super();
 		this.name = name;
+		this.id = id;
 		this.age = age;
 		this.pwd = pwd;
 		this.paypwd = paypwd;
 		this.address = address;
 		this.cardNum = cardNum;
+		
 	}
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
 	}
 	public int getAge() {
 		return age;
@@ -37,10 +53,10 @@ public class User {
 	public void setPwd(String pwd) {
 		this.pwd = pwd;
 	}
-	public int getPaypwd() {
+	public String getPaypwd() {
 		return paypwd;
 	}
-	public void setPaypwd(int paypwd) {
+	public void setPaypwd(String paypwd) {
 		this.paypwd = paypwd;
 	}
 	public String getAddress() {
@@ -55,10 +71,11 @@ public class User {
 	public void setCardNum(int cardNum) {
 		this.cardNum = cardNum;
 	}
-	@Override
-	public String toString() {
-		return "User [name=" + name + ", age=" + age + ", pwd=" + pwd + ", paypwd=" + paypwd + ", address=" + address
-				+ ", cardNum=" + cardNum + "]";
+	public static int getPoint() {
+		return point;
+	}
+	public static void setPoint(int point) {
+		User.point = point;
 	}
 	@Override
 	public int hashCode() {
@@ -67,8 +84,9 @@ public class User {
 		result = prime * result + ((address == null) ? 0 : address.hashCode());
 		result = prime * result + age;
 		result = prime * result + cardNum;
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
-		result = prime * result + paypwd;
+		result = prime * result + ((paypwd == null) ? 0 : paypwd.hashCode());
 		result = prime * result + ((pwd == null) ? 0 : pwd.hashCode());
 		return result;
 	}
@@ -90,12 +108,20 @@ public class User {
 			return false;
 		if (cardNum != other.cardNum)
 			return false;
+		if (id == null) {
+			if (other.id != null)
+				return false;
+		} else if (!id.equals(other.id))
+			return false;
 		if (name == null) {
 			if (other.name != null)
 				return false;
 		} else if (!name.equals(other.name))
 			return false;
-		if (paypwd != other.paypwd)
+		if (paypwd == null) {
+			if (other.paypwd != null)
+				return false;
+		} else if (!paypwd.equals(other.paypwd))
 			return false;
 		if (pwd == null) {
 			if (other.pwd != null)
@@ -104,6 +130,13 @@ public class User {
 			return false;
 		return true;
 	}
+	@Override
+	public String toString() {
+		return "User [name=" + name + ", id=" + id + ", age=" + age + ", pwd=" + pwd + ", paypwd=" + paypwd
+				+ ", address=" + address + ", cardNum=" + cardNum + "]";
+	}
+	
+	
 	
 
 }

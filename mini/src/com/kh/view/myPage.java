@@ -6,11 +6,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import com.kh.model.controller.ProductController;
-
-public class myPage extends JPanel{
-	private ProductController pc = new ProductController();
-	public myPage(JFrame mf) {
+public class MyPage extends JPanel{
+	//private ProductController pc = new ProductController();
+	public MyPage(JFrame mf) {
 		this.setLayout(new BorderLayout());
 		
 		JLabel title = new JLabel("MYPAGE");
