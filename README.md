@@ -103,7 +103,7 @@ JAVA Swing Mini Project
 ### :tropical_drink: 기획서 및 코드 분석
 https://docs.google.com/presentation/d/1FAZUuA_0UAWSZ6AQQM63A7ubA6qk5b6a9u0yYaltHzs/edit#slide=id.ga80a82c5de_0_0
 
-### 개발 환경
+### :floppy_disk: 개발 환경
 |  Language  |    IDE     |  Library   |
 | ---------- | :--------- |----------: |
 |    JAVA    |   Eclipse  |  Google    |
