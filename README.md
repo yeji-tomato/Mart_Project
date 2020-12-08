@@ -2,10 +2,7 @@
 ## 장보기 프로젝트(Mart Project)
 -------------------------------
 ### 시현영상
-```
 ![miniPg](https://user-images.githubusercontent.com/59958929/101499214-5baca300-39b0-11eb-8a00-8f3544c50169.gif)
-
-```
 --------------------------------
 ![슬라이드1](https://user-images.githubusercontent.com/59958929/101491097-acb79980-39a6-11eb-8bb7-df66a711ea0f.PNG)
 
