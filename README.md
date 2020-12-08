@@ -98,11 +98,15 @@ JAVA Swing Mini Project
 2) 재료 카테고리 
 - 재료 키워드(ex.돼지고기)를 검색 시 
 관련 요리들이 보여지는 기능
-
 ```
+
 ### :tropical_drink: 기획서 및 코드 분석
 https://docs.google.com/presentation/d/1FAZUuA_0UAWSZ6AQQM63A7ubA6qk5b6a9u0yYaltHzs/edit#slide=id.ga80a82c5de_0_0
 
+### 개발 환경
+|  Language  |    IDE     |  Library   |
+| ---------- | :--------- |----------: |
+|    JAVA    |   Eclipse  |  Google    |
 ----------------------------------------------------------------------
 ## :computer: [프로그램 시현 영상]
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/59958929/101500475-e3df7800-39b1-11eb-8b18-8e40576f80e7.gif)
