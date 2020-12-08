@@ -126,7 +126,7 @@ images.githubusercontent.com/59958929/101491886-a1b13900-39a7-11eb-8cd1-07ec8f77
 ----------------------------------------------------------------------
 -------------------------------
 ### 시현영상
-![miniPg](https://user-images.githubusercontent.com/59958929/101499214-5baca300-39b0-11eb-8a00-8f3544c50169.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/59958929/101500475-e3df7800-39b1-11eb-8b18-8e40576f80e7.gif)
 ### pdf
 [[4조]장보기프로젝트(최종).pdf](https://github.com/Lee-ye-ji/mini/files/5659634/4.pdf)
 ### pptx
