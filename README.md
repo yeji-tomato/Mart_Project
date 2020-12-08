@@ -2,6 +2,15 @@
 ## 장보기 프로젝트(Mart Project)
 
 --------------------------------
+```
+[주요기능]
+1. 로그인/회원가입 - 김수민
+2. 마이페이지 - 이은솔
+3. 상품페이지 - 권세희
+4. 장바구니페이지 - 최승아
+5. 레시피페이지 - 이예지
+```
+----------------------------------------------------------------
 ![슬라이드1](https://user-images.githubusercontent.com/59958929/101491097-acb79980-39a6-11eb-8bb7-df66a711ea0f.PNG)
 
 ![슬라이드2](https://user-images.githubusercontent.com/59958929/101491128-b50fd480-39a6-11eb-89ad-d5abfda00ded.PNG)
@@ -123,6 +132,8 @@ images.githubusercontent.com/59958929/101491886-a1b13900-39a7-11eb-8cd1-07ec8f77
 ![슬라이드60](https://user-images.githubusercontent.com/59958929/101491878-a0800c00-39a7-11eb-9bf3-53a6200d1e88.PNG)
 
 ![슬라이드61](https://user-images.githubusercontent.com/59958929/101492418-361b9b80-39a8-11eb-9cce-82eab853334c.PNG)
+
+----------------------------------------------------------------------
 
 ### pdf
 [[4조]장보기프로젝트(최종).pdf](https://github.com/Lee-ye-ji/mini/files/5659634/4.pdf)
