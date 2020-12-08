@@ -32,7 +32,11 @@ JAVA Swing Mini Project
 + :apple: 이예지 - 레시피페이지
 
 ### :hamburger: 기능 
+![슬라이드10](https://user-images.githubusercontent.com/59958929/101491292-eab4bd80-39a6-11eb-8a9d-467b6b20812b.PNG)
 
+![슬라이드11](https://user-images.githubusercontent.com/59958929/101491319-f30cf880-39a6-11eb-8006-b95947b32cbf.PNG)
+
+![슬라이드12](https://user-images.githubusercontent.com/59958929/101491320-f30cf880-39a6-11eb-804a-a67e19dc17b5.PNG)
 
 ### :tropical_drink: 기획서 및 코드 분석
 https://docs.google.com/presentation/d/1FAZUuA_0UAWSZ6AQQM63A7ubA6qk5b6a9u0yYaltHzs/edit#slide=id.ga80a82c5de_0_0
