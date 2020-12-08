@@ -1,6 +1,5 @@
 # mini
 ## 장보기 프로젝트(Mart Project)
---------------------------------
 ![슬라이드1](https://user-images.githubusercontent.com/59958929/101491097-acb79980-39a6-11eb-8bb7-df66a711ea0f.PNG)
 
 ![슬라이드2](https://user-images.githubusercontent.com/59958929/101491128-b50fd480-39a6-11eb-89ad-d5abfda00ded.PNG)
@@ -126,7 +125,8 @@ images.githubusercontent.com/59958929/101491886-a1b13900-39a7-11eb-8cd1-07ec8f77
 ----------------------------------------------------------------------
 ### 시현영상
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/59958929/101500475-e3df7800-39b1-11eb-8b18-8e40576f80e7.gif)
--------------------------------
+
+---------------------------------------------------------------
 ### pdf
 [[4조]장보기프로젝트(최종).pdf](https://github.com/Lee-ye-ji/mini/files/5659634/4.pdf)
 ### pptx
