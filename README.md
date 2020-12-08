@@ -123,7 +123,7 @@ images.githubusercontent.com/59958929/101491886-a1b13900-39a7-11eb-8cd1-07ec8f77
 ![슬라이드61](https://user-images.githubusercontent.com/59958929/101492418-361b9b80-39a8-11eb-9cce-82eab853334c.PNG)
 
 ----------------------------------------------------------------------
-# [프로그램 시현 영상]
+## [프로그램 시현 영상]
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/59958929/101500475-e3df7800-39b1-11eb-8b18-8e40576f80e7.gif)
 
 ---------------------------------------------------------------
