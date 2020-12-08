@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class Product implements Serializable{
 	private String pName;
 	private int price;
-	private static int cnt=1;
+	private int cnt;
 	private String img;
 	private boolean adult;
 	
@@ -27,6 +27,8 @@ public class Product implements Serializable{
 		this.img = img;
 		this.adult = adult;
 	}
+
+
 
 	public String getpName() {
 		return pName;

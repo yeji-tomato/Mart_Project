@@ -14,7 +14,7 @@ public class User implements Serializable{
 	private String paypwd;
 	private String address;
 	private int cardNum;
-	private static int point =0;
+	private int point=0;
 	public User() {
 		
 	}
@@ -27,6 +27,7 @@ public class User implements Serializable{
 		this.paypwd = paypwd;
 		this.address = address;
 		this.cardNum = cardNum;
+
 		
 	}
 	public String getName() {
@@ -71,11 +72,11 @@ public class User implements Serializable{
 	public void setCardNum(int cardNum) {
 		this.cardNum = cardNum;
 	}
-	public static int getPoint() {
+	public int getPoint() {
 		return point;
 	}
-	public static void setPoint(int point) {
-		User.point = point;
+	public void setPoint(int point) {
+		this.point = point;
 	}
 	@Override
 	public int hashCode() {

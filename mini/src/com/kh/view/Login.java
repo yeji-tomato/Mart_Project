@@ -1,6 +1,8 @@
 package com.kh.view;
 
 import java.awt.Color;
+import java.awt.Font;
+import java.awt.FontFormatException;
 import java.awt.Image;
 import java.awt.Label;
 import java.awt.TextField;
@@ -8,8 +10,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -31,17 +35,46 @@ public class Login extends JPanel{
    private ArrayList<User> list = uc.openList();
    
    public Login(JFrame mf) {
-     
       this.setLayout(null);
-      this.setBackground(Color.white);
-      JLabel label = new JLabel(new ImageIcon("image/KHmart_logo.jpeg"));
+      
+      this.setLayout(null);
+      this.setBackground(new Color(106,168,79));
+      
+      
+      Font ttfBase = null;
+      Font ttfReal = null;
+      try {
+         BufferedInputStream myStream = new BufferedInputStream(new FileInputStream("BMJUA_ttf.ttf"));
+         ttfBase = Font.createFont(Font.TRUETYPE_FONT, myStream);
+         ttfReal = ttfBase.deriveFont(Font.PLAIN, 15);
+         System.out.println(ttfReal);
+      } catch (FileNotFoundException e1) {
+         // TODO Auto-generated catch block
+         e1.printStackTrace();
+      } catch (FontFormatException e1) {
+         // TODO Auto-generated catch block
+         e1.printStackTrace();
+      } catch (IOException e1) {
+         // TODO Auto-generated catch block
+         e1.printStackTrace();
+      }
+      
+      
+      
+      
+      Image icon = new ImageIcon("image/logo.png").getImage().getScaledInstance(250, 250, 0);
+      JLabel label = new JLabel(new ImageIcon(icon));
+      label.setBackground(Color.WHITE);
       add(label);
-      Label labelId = new Label("아이디");
+      JLabel labelId = new JLabel("아이디");
       add(labelId);
-      labelId.setBackground(Color.WHITE);
-      Label labelPwd = new Label("비밀번호");
+      labelId.setFont(ttfReal.deriveFont(15f));
+      
+      labelId.setBackground(new Color(106,168,79));
+      JLabel labelPwd = new JLabel("비밀번호");
+   labelPwd.setFont(ttfReal.deriveFont(15f));   
       add(labelPwd);
-      labelPwd.setBackground(Color.WHITE);
+      labelPwd.setBackground(new Color(106,168,79));
       TextField IdF = new TextField();
       add(IdF);
       TextField pwdLabel = new TextField();
@@ -49,18 +82,26 @@ public class Login extends JPanel{
       pwdLabel.setEchoChar('*');// 암호화
       JButton login = new JButton("로그인"); // 로그인 버튼
       add(login);
+      login.setFont(ttfReal);
       JButton join = new JButton("회원가입"); // 회원가입 버튼
+      join.setFont(ttfReal);
       add(join);
-      label.setBounds(0, 0, 700, 255);
-      labelId.setBounds(153, 260, 40, 40);
-      labelPwd.setBounds(140, 300, 60, 40);
-      IdF.setBounds(220, 265, 200, 30);
-      pwdLabel.setBounds(220, 305, 200, 30);
-      login.setBounds(450, 265, 80, 30);
-      join.setBounds(450, 305, 90, 30);
+      login.setBackground(new Color(241,194,50));
+      join.setBackground(new Color(241,194,50));
+      //JPanel logo = new JPanel();
+     // JLabel label2 = new JLabel(new ImageIcon("image/KHmart_logo.jpeg"));
       
-      this.setSize(700, 400);
-      this.setLocation(550, 300);
+      label.setBounds(100, 25, 300, 800);
+      labelId.setBounds(443, 368, 40, 40);
+      labelPwd.setBounds(433, 428, 60, 40);
+      IdF.setBounds(520, 365, 250, 40);
+      pwdLabel.setBounds(520, 425, 250, 40);
+      login.setBounds(800, 365, 100, 100);
+      join.setBounds(520, 475, 250, 30);
+      
+  //    this.setBounds(350,50,1100,900);
+  //    this.setLocation(700, 400);
+      
       
       setVisible(true);
       join.addMouseListener(new MouseAdapter() {
@@ -74,34 +115,38 @@ public class Login extends JPanel{
       });
       ;
       
-
       login.addActionListener(new ActionListener() {
 
-		@Override
-		public void actionPerformed(ActionEvent e) {
-			for(int i = 0; i < list.size(); i++) {
-				if (IdF.getText().equals(list.get(i).getId()) && pwdLabel.getText().equals(list.get(i).getPwd())) {
-					JOptionPane.showMessageDialog(null, "로그인이 되었습니다!!");
-					 mf.getContentPane().removeAll();
+      @Override
+      public void actionPerformed(ActionEvent e) {
+         for(int i = 0; i < list.size(); i++) {
+            if (IdF.getText().equals(list.get(i).getId()) && pwdLabel.getText().equals(list.get(i).getPwd())) {
+               JOptionPane.showMessageDialog(null, "로그인이 되었습니다!!");
+               
+               uc.saveLogin(list.get(i));
+               
+               
+               
+                mf.getContentPane().removeAll();
                      mf.getContentPane().add(new ProductPage(mf));                                     //여기에 로그인 성공시 다음페이지 넣어주세요
                      mf.repaint();
                      mf.setVisible(true);
                      return;  
-				}else if(IdF.getText().equals(list.get(i).getId()) && !pwdLabel.getText().equals(list.get(i).getPwd())){
-					JOptionPane.showMessageDialog(null, "비밀번호가 틀립니다");
-					return;
-				}
-				if(IdF.getText().equals("")) {
+            }else if(IdF.getText().equals(list.get(i).getId()) && !pwdLabel.getText().equals(list.get(i).getPwd())){
+               JOptionPane.showMessageDialog(null, "비밀번호가 틀립니다");
+               return;
+            }
+            if(IdF.getText().equals("")) {
                     JOptionPane.showMessageDialog(null, "아이디를 입력해주세요");
                     return;
                  }else if(pwdLabel.getText().equals("")) {
                     JOptionPane.showMessageDialog(null, "비밀번호를 입력해주세요");
                     return;
                  }
-			}
-			JOptionPane.showMessageDialog(null, "로그인이 실패하였습니다.");
-		}
-    	  
+         }
+         JOptionPane.showMessageDialog(null, "로그인이 실패하였습니다.");
+      }
+         
       });
      
    }
