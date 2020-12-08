@@ -32,11 +32,20 @@ JAVA Swing Mini Project
 + :apple: 이예지 - 레시피페이지
 
 ### :hamburger: 기능 
-![슬라이드10](https://user-images.githubusercontent.com/59958929/101491292-eab4bd80-39a6-11eb-8a9d-467b6b20812b.PNG)
++ :strawberry: 로그인 & 회원가입
+```
+1) 회원가입 시 받을 정보 
+- 아이디 (중복 확인 기능 추가)
+비밀번호 
+(영문 대소문자, 특수문자 혼합 확인 기능 추가)
+- 이름
+- 나이 (미성년자 / 성인 확인하기 위해)
+- 카드 번호 
+2) 로그인 시
+- 로그아웃 전까지 로그인 상태 유지
+- 아이디, 비번 오류 -> 로그인 실패
 
-![슬라이드11](https://user-images.githubusercontent.com/59958929/101491319-f30cf880-39a6-11eb-8006-b95947b32cbf.PNG)
-
-![슬라이드12](https://user-images.githubusercontent.com/59958929/101491320-f30cf880-39a6-11eb-804a-a67e19dc17b5.PNG)
+```
 
 ### :tropical_drink: 기획서 및 코드 분석
 https://docs.google.com/presentation/d/1FAZUuA_0UAWSZ6AQQM63A7ubA6qk5b6a9u0yYaltHzs/edit#slide=id.ga80a82c5de_0_0
