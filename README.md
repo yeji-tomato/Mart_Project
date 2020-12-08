@@ -124,3 +124,7 @@ images.githubusercontent.com/59958929/101491886-a1b13900-39a7-11eb-8cd1-07ec8f77
 
 ![슬라이드61](https://user-images.githubusercontent.com/59958929/101492418-361b9b80-39a8-11eb-9cce-82eab853334c.PNG)
 
+### pdf
+[[4조]장보기프로젝트(최종).pdf](https://github.com/Lee-ye-ji/mini/files/5659634/4.pdf)
+### pptx
+[[4조]장보기프로젝트(최종).pptx](https://github.com/Lee-ye-ji/mini/files/5659636/4.pptx)
