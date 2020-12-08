@@ -1,6 +1,8 @@
 # mini
 ## :bento: 장보기 프로젝트(Mart Project)
 
+JAVA Swing Mini Project
+
 ### :rice_ball: 기획의도
 ```
 코로나로 인해 밖에 자주 나가지도 않아 마트에 
