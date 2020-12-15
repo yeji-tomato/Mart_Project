@@ -39,7 +39,7 @@ JAVA Swing Mini Project
   <tr>
     <td align="center">
       <a href="https://github.com/borasumin">
-      <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px;" alt="yejiprofile"/><br />
+      <img src="https://avatars3.githubusercontent.com/u/73922587?s=460&v=4 width="100px;" alt="suminprofile"/><br />
       <sub>
       <b>
       borasumin<br/>
