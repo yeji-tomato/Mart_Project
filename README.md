@@ -61,7 +61,7 @@ JAVA Swing Mini Project
     </td>
      <td align="center">
       <a href="https://github.com/kwonsehee">
-      <img src="https://avatars1.githubusercontent.com/u/48790779?s=460&u=d4c51c01b79d4caaa2b2f3b28ccf2e23075daf9e&v=4" alt="suminprofile"/><br />
+      <img src="https://avatars1.githubusercontent.com/u/48790779?s=460&u=d4c51c01b79d4caaa2b2f3b28ccf2e23075daf9e&v=4" alt="seheeprofile"/><br />
       <sub>
       <b>
       권세희<br/>
@@ -72,7 +72,7 @@ JAVA Swing Mini Project
     </td>
       <td align="center">
       <a href="https://github.com/gmlgml98">
-      <img src="https://avatars2.githubusercontent.com/u/73922783?s=460&v=4 width="100px;" alt="yejiprofile"/><br />
+      <img src="https://avatars2.githubusercontent.com/u/73922783?s=460&v=4 width="100px;" alt="profile"/><br />
       <sub>
       <b>
       gmlgml98<br/>
@@ -83,7 +83,7 @@ JAVA Swing Mini Project
     </td>
        <td align="center">
       <a href="https://github.com/seungahh">
-      <img src=https://avatars2.githubusercontent.com/u/73922848?s=460&v=4 width="100px;" alt="yejiprofile"/><br />
+      <img src=https://avatars2.githubusercontent.com/u/73922848?s=460&v=4 alt="seungaprofile"/><br />
       <sub>
       <b>
       seungahh<br/>
