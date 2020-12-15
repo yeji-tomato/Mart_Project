@@ -38,7 +38,27 @@ JAVA Swing Mini Project
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Lee-ye-ji">
-      <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px" alt="yejiprofile"/><br />
+      <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px;" alt="yejiprofile"/><br />
+      <sub><b>Lee-ye-ji</b></sub></a>
+    </td>
+    <td align="center"><a href="https://github.com/Lee-ye-ji">
+      <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px;" alt="yejiprofile"/><br />
+      <sub><b>Lee-ye-ji</b></sub></a>
+    </td>
+    <td align="center"><a href="https://github.com/Lee-ye-ji">
+      <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px;" alt="yejiprofile"/><br />
+      <sub><b>Lee-ye-ji</b></sub></a>
+    </td>
+    <td align="center"><a href="https://github.com/Lee-ye-ji">
+      <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px;" alt="yejiprofile"/><br />
+      <sub><b>Lee-ye-ji</b></sub></a>
+    </td>
+    <td align="center"><a href="https://github.com/Lee-ye-ji">
+      <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px;" alt="yejiprofile"/><br />
+      <sub><b>Lee-ye-ji</b></sub></a>
+    </td>
+    <td align="center"><a href="https://github.com/Lee-ye-ji">
+      <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px;" alt="yejiprofile"/><br />
       <sub><b>Lee-ye-ji</b></sub></a>
     </td>
  </tr>
