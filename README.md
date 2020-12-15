@@ -43,7 +43,7 @@ JAVA Swing Mini Project
       <sub>
       <b>Lee-ye-ji</b><br/>
       <p>
-      :apple: 이예지 - 레시피페이지
+      이예지
       </p>
       </sub>
       </a>
