@@ -41,10 +41,10 @@ JAVA Swing Mini Project
       <a href="https://github.com/Lee-ye-ji">
       <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px;" alt="yejiprofile"/><br />
       <sub>
-      <b>Lee-ye-ji</b><br/>
-      <p>
+      <b>
+      Lee-ye-ji<br/>
       이예지
-      </p>
+      </b>
       </sub>
       </a>
     </td>
