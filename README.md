@@ -61,7 +61,7 @@ JAVA Swing Mini Project
     </td>
      <td align="center">
       <a href="https://github.com/kwonsehee">
-      <img src="https://avatars1.githubusercontent.com/u/48790779?s=460&u=d4c51c01b79d4caaa2b2f3b28ccf2e23075daf9e&v=4" alt="seheeprofile"/><br />
+      <img src="https://avatars1.githubusercontent.com/u/48790779?s=460&u=d4c51c01b79d4caaa2b2f3b28ccf2e23075daf9e&v=4" width="100px;" alt="seheeprofile"/><br />
       <sub>
       <b>
       권세희<br/>
