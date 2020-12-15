@@ -73,10 +73,10 @@ JAVA Swing Mini Project
       <sub>
       <b>
       Lee-ye-ji<br/>
+      :apple:  
       </b>
       </sub>
       </a>
-      <p>:apple: 레시피페이지</p>
     </td>
  </tr>
  <table>
