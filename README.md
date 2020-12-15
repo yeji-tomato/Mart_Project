@@ -60,21 +60,36 @@ JAVA Swing Mini Project
       </a>
     </td>
      <td align="center">
-      <a href="https://github.com/Lee-ye-ji">
-      <img src="https://avatars3.githubusercontent.com/u/73922587?s=460&v=4" alt="suminprofile"/><br />
-      <sub><b>borasumin</b></sub>
+      <a href="https://github.com/kwonsehee">
+      <img src="https://avatars1.githubusercontent.com/u/48790779?s=460&u=d4c51c01b79d4caaa2b2f3b28ccf2e23075daf9e&v=4" alt="suminprofile"/><br />
+      <sub>
+      <b>
+      권세희<br/>
+      :lemon:  
+      </b>
+      </sub>
       </a>
     </td>
       <td align="center">
-      <a href="https://github.com/Lee-ye-ji">
-      <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px;" alt="yejiprofile"/><br />
-      <sub><b>Lee-ye-ji</b></sub>
+      <a href="https://github.com/gmlgml98">
+      <img src="https://avatars2.githubusercontent.com/u/73922783?s=460&v=4 width="100px;" alt="yejiprofile"/><br />
+      <sub>
+      <b>
+      gmlgml98<br/>
+      :watermelon: 
+      </b>
+      </sub>
       </a>
     </td>
        <td align="center">
-      <a href="https://github.com/Lee-ye-ji">
-      <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px;" alt="yejiprofile"/><br />
-      <sub><b>Lee-ye-ji</b></sub>
+      <a href="https://github.com/seungahh">
+      <img src=https://avatars2.githubusercontent.com/u/73922848?s=460&v=4 width="100px;" alt="yejiprofile"/><br />
+      <sub>
+      <b>
+      seungahh<br/>
+      :peach:  
+      </b>
+      </sub>
       </a>
     </td>
     <td align="center">
