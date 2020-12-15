@@ -38,21 +38,31 @@ JAVA Swing Mini Project
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/Lee-ye-ji">
+      <a href="https://github.com/borasumin">
       <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px;" alt="yejiprofile"/><br />
-      <sub><b>Lee-ye-ji</b></sub>
+      <sub>
+      <b>
+      borasumin<br/>
+      :strawberry:  
+      </b>
+      </sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/essol2">
       <img src="https://avatars1.githubusercontent.com/u/73922496?s=460&v=4 width="100px;" alt="essol2profile"/><br />
-      <sub><b>Lee-ye-ji</b></sub>
+      <sub>
+      <b>
+      essol2<br/>
+      :tangerine:  
+      </b>
+      </sub>
       </a>
     </td>
      <td align="center">
       <a href="https://github.com/Lee-ye-ji">
-      <img src="https://avatars3.githubusercontent.com/u/59958929?s=460&u=f084b39c32e884337be6b229f6796c2283960844&v=4 width="100px;" alt="yejiprofile"/><br />
-      <sub><b>Lee-ye-ji</b></sub>
+      <img src="https://avatars3.githubusercontent.com/u/73922587?s=460&v=4" alt="suminprofile"/><br />
+      <sub><b>borasumin</b></sub>
       </a>
     </td>
       <td align="center">
