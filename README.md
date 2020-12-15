@@ -33,6 +33,14 @@ JAVA Swing Mini Project
 + :peach: 최승아 - 결제페이지
 + :apple: 이예지 - 레시피페이지
 
+
+
+table>
+  <tr>
+    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3?s=100" width="100px;" alt=""/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="#question-kentcdodds" title="Answering Questions">💬</a> <a href="https://github.com/all-contributors/all-contributors/commits?author=kentcdodds" title="Documentation">📖</a> <a href="https://github.com/all-contributors/all-contributors/pulls?q=is%3Apr+reviewed-by%3Akentcdodds" title="Reviewed Pull Requests">👀</a> <a href="#talk-kentcdodds" title="Talks">📢</a></td>
+ </tr>
+ <table>
+
 ### :hamburger: 기능 
 
 + :strawberry: 로그인 & 회원가입
