@@ -80,7 +80,7 @@ JAVA Swing Mini Project
     </td>
        <td align="center">
       <a href="https://github.com/seungahh">
-      <img src="https://avatars2.githubusercontent.com/u/73922848?s=460&v=4" alt="seungaprofile"/><br />
+      <img src="https://avatars3.githubusercontent.com/u/73922848?s=460&u=472b1f342de5ef26b95a81ae7f4d0365ed1cf995&v=4" alt="seungaprofile"/><br />
       <sub>
       <b>
       seungahh<br/>
