@@ -69,7 +69,7 @@ JAVA Swing Mini Project
     </td>
       <td align="center">
       <a href="https://github.com/gmlgml98">
-      <img src="https://avatars2.githubusercontent.com/u/73922783?s=460&v=4" alt="profile"/><br />
+      <img src="https://avatars2.githubusercontent.com/u/73922783?s=460&u=0278bcafa18d38c9c08f756e51a187caa66d5d70&v=4" alt="profile"/><br />
       <sub>
       <b>
       gmlgml98<br/>
